@@ -1,13 +1,29 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;700;900&display=swap');
 
+p {
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+}
 
 header {
-    width: 50%;
     padding: 20px;
     margin: auto;
 }
 
 header h1 {
+    font-family: 'Exo', sans-serif;
+    font-weight: 900;
+}
+
+h3 {
+    font-family: 'Exo', sans-serif;
+    font-weight: 900;
+    line-height: 55px;
+}
+
+h4 {
+    font-family: 'Exo', sans-serif;
     font-weight: 700;
 }
 
@@ -16,15 +32,18 @@ header h1 {
     color: #ffa726;
 }
 
+#karolinska a {
+    color: #ffa726;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
 #karolinska p {
     font-size: 25px;
     line-height: 30px;
 }
 
-.center {
-    width: 50%;
-    padding: 20px; 
-}
 
 .small {
     font-size: 8px;
@@ -32,6 +51,64 @@ header h1 {
 
 .world i {
     font-size: 60px;
-    padding: 5px;
+    padding: 7px;
     color: #ffb74d;
+}
+
+#karolinska hr {
+margin: 20px;
+border: 2px #ffb74d solid;
+width: 50%;
+}
+
+.work i {
+    font-size: 80px;
+    padding: 7px;
+    color: #1b5e20;
+}
+
+#arbete {
+    padding: 20px;
+}
+
+#arbete h3 {
+    color: #1b5e20;
+}
+
+#arbete p {
+    color: #1b5e20;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+#arbete a {
+    color: #1b5e20;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+#old p {
+    color: #880e4f;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+#old {
+    padding: 20px;
+}
+
+#old h3 {
+    color: #880e4f;
+}
+
+#old i {
+    font-size: 220px;
+    padding: 7px;
+    color: #880e4f;
+}
+
+footer {
+    padding: 20px;
+    margin: auto;
 }
