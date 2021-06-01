@@ -103,7 +103,7 @@ width: 50%;
 }
 
 #old i {
-    font-size: 220px;
+    font-size: 200px;
     padding: 7px;
     color: #880e4f;
 }
@@ -124,5 +124,10 @@ footer {
 @media only screen and (max-width: 600px) {
   h1 {
     font-size: 30px;
+  }
+
+  h3 {
+      font-size: 28px !important;
+      line-height: 30px !important;
   }
 }
